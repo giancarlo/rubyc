@@ -1,0 +1,60 @@
+class module def undef begin rescue ensure end if unless then elsif else case when while 
+until for break next redo retry in do return yield super self alias BEGIN END
+__LINE__ __FILE__ __END__ __ENCODING__ continue and or not defined? nil true false
+# Comments
+& # Comment 2
+|~&&||!+-*/** <=>!=== ===<><= >= << >> []{}(): :: =>,%= ~= !~
+identifier classified defin beginning ending aliases cont unle th BEG EN
+
+@local_var292kk @@class_variable982xx$globalvariable99xx___
+
+  def loadtest(libname)
+    require(libname)
+    in_critical do
+      in_progname(libpath(libname)) do
+        eval_part(libname, /^(?=if\s+(?:\$0\s*==\s*__FILE__|__FILE__\s*==\s*\$0)(?:[\#\s]|$))/, '$0 == __FILE__')
+      end
+    end
+  end
+  
+$:.find do |path|
+File.file?(testname)
+end
+
+'Single Quote String \\ \''
+"\"\\\a\b\r\n\s\t\""
+"#{ 
+ puts "hello"
+ puts "world"
+ "FTW".each_char { }
+     } hello"
+%q{Single Brace String}
+%Q{Capital Q Brace String}
+
+1234567890   # Fixnum
+12345678901234567890 # Bignum
+123_456_789  # Underscore Number
+12345.67890  # Float
+12345.to_f   # Number class method call
+123.222.abs  # Method call after float
+0x01234abc
+0x0123456789abcdef # Hex
+0b1100110101 # binary
+0b110011010111001101011100110101110011010111001101011100110101110011010111001101011100110101110011010110101110011010111001101011100110101110011010111001101011010111001101011100110101110011010111001101011100110101
+001234567 # octal
+001234567001234567001234567
+
+:symbol123__
+
+10..100
+1298...1010
+1233.22 ... 20.2
+
+23e9
+2999.33e9
+3333
+
+2147483647
+2147483648
+
+identifier_with_no_eol # no eol comment
