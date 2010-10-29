@@ -446,4 +446,5 @@ void test_scanner()
 int main()
 {
 	test_scanner();
+	return 0;
 }
