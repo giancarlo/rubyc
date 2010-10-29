@@ -438,7 +438,7 @@ void test_scanner()
 	assert(scan() == tk_nop);
 
 	// output buffer ( should be zero terminated )
-	// dump_buffer();
+	//dump_buffer();
 
 	fclose(testfile);
 }

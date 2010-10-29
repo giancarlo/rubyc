@@ -19,7 +19,7 @@ binary :test => :librubyc do |l|
 
 	Dir.chdir('test') do
 		l.compile
-		`./scanner`
+		puts `./scanner`
 	end
 end
 
