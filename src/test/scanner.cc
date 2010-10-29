@@ -239,7 +239,7 @@ void test_scanner()
 
 	//vm::initialize();
 
-	FILE* testfile = fopen("../../test/scanner.test", "r");
+	FILE* testfile = fopen("scanner.test", "r");
 	//Value x, y;
 	
 	init(testfile);
